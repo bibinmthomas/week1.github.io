@@ -374,3 +374,18 @@ button:hover{
     display: inline-block;
     margin: 0 20px;
 }
+
+.hamburger{
+    margin-top: 14px;
+    margin-right: -85px;
+    height: 16px;
+    width: 16px;
+    float: right;
+}
+.hamburger div{
+    width: 16px;
+  height: 1.5px;
+  background-color: white;
+  margin: 2.4px 0;
+
+}
