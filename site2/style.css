@@ -358,11 +358,13 @@ pre{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0px 20px;
+    row-gap: 1px;
 }
 .category-boxs{
     display: block;
     height: 128px;
     width: 153px;
+    background: #007185;
 }
 
 .section-box span{
