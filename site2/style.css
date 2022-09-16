@@ -16,6 +16,15 @@ body{
     width: 216px;
     background: #7a6e6e3f;
 }
+.nav-left-1{
+    height: 60px;
+    width: 113px;
+    background: #131921;
+}
+.nav-left-2{
+
+}
+
 .nav-fill{
     float: left;
     height: 60px;
