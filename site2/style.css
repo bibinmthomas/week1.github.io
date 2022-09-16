@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial, sans-serif;
 }
 body{
     background: #eaeded;
@@ -215,13 +215,21 @@ a.logo-amazon{
 
 
 .nav-under{
+    display: flex;
+    text-align: center;
+    align-items: center;
     padding-left: 0px;
     float: left;
     height: 39px;
     width: 1519px;
     background: #232f3e;
 }
+.nav-under div{
+    display: flex;
+    align-items: center;
+}
 .Menu{
+    margin-top: 9p;
     margin: 5px 0px;
     float: left;
     margin-left: 11px;
@@ -231,8 +239,9 @@ a.logo-amazon{
     border-color: #232f3e;
 }
 .common-box{
-    
+    display: flex;
     text-align: center;
+    align-items: center;
     font-size: 14px;
     line-height: 12px;
     display: block;
@@ -242,11 +251,12 @@ a.logo-amazon{
     border-color: #232f3e;
 }
 .box1{
-    width: 82px;
+    
+    width: 92px;
     height: 28px;
 }
 .box2{
-    width: 110px;
+    width: 120px;
     height: 28px;
 }
 .box3{
@@ -254,7 +264,7 @@ a.logo-amazon{
     height: 28px;
 }
 .box4{
-    width: 62px;
+    width: 72px;
     height: 28px;
 }
 .box5{
@@ -267,19 +277,38 @@ a.logo-amazon{
     height: 250px;
     width: 1500px;
     margin-left: 10px;
-    background: #007185;
+    /*background: #007185;*/
+    background-image: url(/Assests/carousel/1.jpg);
+    background-size: cover;
 }
 .body-main{
     height: 3917px;
     width: 1519px;
     background: #eaeded;
 }
+
 .body-row1{
+    font-size: 14px;   
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
     margin: 0 30px;
     height: 40px;
     width: 1460px;
-    background: #62e7e7;
+    background: #f5f6f6;
 }
+.body-row1 label{
+    width: 100%;
+    text-align: center;
+}
+.body-row1 label span{
+    color: #007185;
+}
+.body-row1 label span:hover{
+    color: #c7511f;
+    text-decoration:underline ;
+}
+
 .body-section1{
     /*margin: 0 20px;
     padding: 20px 10px;
@@ -293,14 +322,60 @@ a.logo-amazon{
     margin-left: 10px;
     margin-right: 10px;
     grid-column-end: auto;
-    background: #d14c4cb3;
+    background: #eaeded;
 }
 .section-box{
-
+    display: block;
     height: 420px;
     width: 350px;
     float: left;
     background: #fff;
+}
+.section-box label{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 21px;
+    color: #0f1111;
+    line-height: 27.3px;
+    font-weight: bold;
+    align-items: center;
+}
+.gaming-box{
+    display: flex;
+}
+.gaming-box img{
+    overflow: hidden;
+    height: 116px;
+    width: 185px;
+}
+pre{
+    font-size: 12px;
+    line-height: 18px;
+
+}
+.category-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 20px;
+}
+.category-boxs{
+    display: block;
+    height: 128px;
+    width: 153px;
+}
+
+.section-box span{
+    display: block;
+    font-size: 13px;
+    line-height: 19px;
+    margin-top: 70px;
+    margin-left: 20px;
+    color: #007185;
+}
+.section-box span:hover{
+    text-decoration:underline ;
+    color: #c7511f;
 }
 .body-row2{
     margin-bottom: 20px;
