@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\Brototype\\week1\\week1.github.io\\site2\\index.html"
+            "file": "week1.github.io\\site2\\index.html"
         }
     ]
 }
