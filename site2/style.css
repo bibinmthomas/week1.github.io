@@ -355,6 +355,7 @@ pre{
 
 }
 .category-box{
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0px 20px;
@@ -364,7 +365,34 @@ pre{
     display: block;
     height: 128px;
     width: 153px;
-    background: #007185;
+    background: #e9f4f6;
+}
+div .section-box-1 img{
+    display: block;
+    width: 152px;
+    height: 110px;
+}
+div .section-box-1 p{
+    font-size: 13px;
+    text-align: center;
+}
+div .dress-box {
+    display: block;
+    overflow: hidden;
+    padding: 0px 20px;
+}
+div .dress-box img{
+    margin-top: 10px;
+    height: 303px;
+    width: 310px;
+}
+.section-box .dress-box span{
+    display: block;
+    font-size: 13px;
+    line-height: 19px;
+    margin-top: 30px;
+    margin-left: 0px;
+    color: #007185;
 }
 
 .section-box span{
@@ -379,13 +407,29 @@ pre{
     text-decoration:underline ;
     color: #c7511f;
 }
-.body-row2{
+
+div .body-row2{
+    display: block;
     margin-bottom: 20px;
     margin-left: 30px;
     height: 281px;
     width: 1460px;
-    background: burlywood;
+    padding-left: 20px;
+    padding-top: 22px;
+    background: #ffffff;
 }
+.scroller{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    overflow: scroll;
+}
+.scroller img{
+    margin-right: 20px;
+    height: 200px;
+}
+
 .body-row3{
     margin-left: 30px;
     height: 281px;
