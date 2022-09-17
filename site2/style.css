@@ -24,6 +24,9 @@ body{
     background: #131921;
 }
 .nav-left-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     float: left;
     padding: 1px 1px;
     margin-left: 12px;
@@ -38,9 +41,13 @@ a .logo-amazon{
     margin: 10px 1px;
     width: 98px;
     height: 35px;
-    background-image: url(/Assests/sprites/logo-amazon.png);
     background-size: cover;
     background-color: #131921;
+}
+.logo-amazon img{
+    display: block;
+    overflow: hidden;
+    padding-top: 10px 10px 10px 10px;
 }
 .nav-left-2{
     position: relative;
@@ -129,11 +136,15 @@ a .logo-amazon{
 }
 
 .nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     float: left;
     height: 60px;
     width: 375px;
     background: #131921;
 }
+
 .lang-option{
     float: left;
     padding: 1px 1px;
@@ -145,6 +156,12 @@ a .logo-amazon{
     border-color: #131921;
     background: #131921;
 } 
+.flag img{
+    display: block;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
 .lang-option label{
     font-size: 12px;
     line-height: 14px;
@@ -203,17 +220,34 @@ a .logo-amazon{
     background: #131921;
 }
 .cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     float: left;
     padding: 1px 1px;
     margin-left: 1px;
     margin-top: 5px;
     height: 45px;
-    width: 71px;
+    width:  75px;
     border-style: solid;
     border-color: #131921;
     background: #131921;
 }
-
+.cart img{
+    height: 26px;
+    width: 38px;
+    margin-top: 0px;
+}
+.cart p{
+    margin-left: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+.cart label{
+    margin-top: -23px;
+    margin-left: -20px;
+    color: #f08804;
+}
 
 .nav-under{
     display: flex;
@@ -228,9 +262,10 @@ a .logo-amazon{
 .nav-under div{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .Menu{
-    margin-top: 9p;
+    margin-top: 9px;
     margin: 5px 0px;
     float: left;
     margin-left: 11px;
@@ -238,6 +273,15 @@ a .logo-amazon{
     height: 28px;
     border-style: solid;
     border-color: #232f3e;
+}
+.Menu img{
+    margin-left: 4px;
+}
+.Menu p{
+    font-weight: bold;
+    width: 100%;
+    margin-right: 6px;
+    text-align: right;
 }
 .common-box{
     display: flex;
@@ -463,7 +507,7 @@ div .body-row2{
     align-items: center;
     
     justify-content: space-between;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 .scroller img{
     margin-right: 20px;
@@ -662,21 +706,29 @@ div .body-row3{
     font-size: 11px;
     color: #fff;
 }
-/*
-.footer-section3{
-    width: 1519px;
-    height: 108px;
-    background: #232f3e;
-}
-.footer-section4{
-    width: 1519px;
-    height: 377px;
-    fill: #dddddd;
-    background: #131a22;
-}
-.footer-section5{
+.footer-end{
     width: 1519px;
     height: 76px;
     background: #131a22;
-    fill: #dddddd;
-}*/
+    color: #dddddd;
+}
+.terms{
+    margin-top: 11px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #dddddd;
+    font-size: 12px;
+}
+.terms p{
+    padding: 0px 7px;
+}
+.footer-end span{
+    margin-top: 2px;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
