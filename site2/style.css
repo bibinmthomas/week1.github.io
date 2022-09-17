@@ -33,7 +33,7 @@ body{
     border-color: #131921;
     background: #131921;
 }
-a.logo-amazon{
+a .logo-amazon{
     display: block;
     margin: 10px 1px;
     width: 98px;
@@ -551,16 +551,6 @@ div .body-row3{
     display: block;
     font-size: 13px;
     height: 49px;
-    width: 100%;
-    background: #37475a;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-/*
-.footer-back2top{
-    display: block;
-    height: 49px;
     width: 1519px;
     background: #37475a;
     text-align: center;
@@ -568,17 +558,111 @@ div .body-row3{
     color: white;
 }
 .footer-section2{
+    display: flex;
+    padding: 40px 0px;
     width: 1519px;
-    height: 398px;
+    height: 435px;
+    flex-direction: row;
     background: #232f3e;
+    color: #fff;
+}
+.footer-spacer{
+    display: block;
+    height: 318px;
+    width: 100px;
+}
+.footer-spacer1{
+    display: block;
+    height: 318px;
+    width: 60px;
+}
+.flex-footer2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+.flex-footer2 label{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+.flex-footer2 p{
+    font-size: 14px;
+    margin-bottom: 9px;
+    line-height: 16.8px;
+    color: #dddddd;
+
 }
 .footer-line{
     content: '';
     height: 1px;
+    margin-top: -120px;
     width: 1516px;
     background: #7e8185;
     fill:#c6d3d3;
 }
+.footer-section2-end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 68px;
+    margin: -109px 260px;
+    background: #232f3e;
+}
+.footer-section2-end .logo-amazon1{
+    display: block;
+    margin: 10px 1px;
+    width: 98px;
+    height: 35px;
+    margin-right: 73px;
+    background-image: url(/Assests/sprites/logo-amazon.png);
+    background-size: cover;
+    background-color: #131921;
+}
+.footer-after-logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px 7px;
+    align-items: center;
+    
+}
+.footer-after-logo button{
+    height: 34px;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 5px;
+    margin-right: 7px;
+    text-align: center;
+    color: #dddddd;
+    border-color: #c6d3d3;
+    border-radius: 3px;
+    background: #232f3e;
+    border-width: 1px;
+}
+.footer-section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 15px;
+    padding: 30px 260px;
+    
+    height: 377px;
+    fill: #dddddd;
+    background: #131a22;
+}
+.footer-section3 div{
+    color: #999999;
+    width: 100px;
+    font-size: 10px;
+}
+.footer-section3 div span{
+    font-size: 11px;
+    color: #fff;
+}
+/*
 .footer-section3{
     width: 1519px;
     height: 108px;
