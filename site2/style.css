@@ -331,6 +331,45 @@ a.logo-amazon{
     float: left;
     background: #fff;
 }
+.split .section-box{
+    background: #eaeded;
+}
+.first-split{
+    display: block;
+    height: 150px;
+    width: 100%;
+    background: #fff;
+}
+.first-split label{
+    width: 100%;
+    padding-top: 15px;
+}
+.first-split a{
+    display: block;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 15px;
+    width: 308px;
+    font-size: 13px;
+    line-height: 29px;
+    text-decoration: none;
+    background: #f7ca00;
+    border-radius: 6px;
+    color: #0f1111;;
+}
+.second-split{
+    display: block;
+    margin-top: 20px;
+    height: 230px;
+    width: 100%;
+    background: #eaeded;
+    overflow: hidden;
+}
+.second-split img{
+    margin-left: 25px;
+    
+}
+
 .section-box label{
     display: block;
     margin-top: 20px;
@@ -415,33 +454,55 @@ div .body-row2{
     height: 281px;
     width: 1460px;
     padding-left: 20px;
-    padding-top: 22px;
+    padding-top: 10px;
     background: #ffffff;
 }
 .scroller{
     display: flex;
     align-items: center;
-    flex: 1;
+    
     justify-content: space-between;
     overflow: scroll;
 }
 .scroller img{
     margin-right: 20px;
     height: 200px;
+    cursor: pointer;
 }
 
-.body-row3{
+div .body-row3{
+    display: block;
+    margin-bottom: 20px;
     margin-left: 30px;
     height: 281px;
     width: 1460px;
-    background: burlywood;
+    padding-left: 20px;
+    padding-top: 22px;
+    background: #ffffff;
 }
 .body-section2{
-    margin: 0 20px;
+    /*margin: 0 20px;
     padding: 20px 10px;
     height: 420px;
     width: 1480px;
-    background: #d14c4cb3;
+    background: #d14c4cb3;*/
+    display: grid;
+    padding: 10px 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-column-end: auto;
+    background: #eaeded;
+    overflow: auto;
+}
+.body-section2 .category-boxs{
+    background: white;
+}
+.body-section2 .section-box .category-box .category-boxs p{
+    text-align: left;
+    font-size: 12px;
+    line-height: 18px;
 }
 .footer-section1{
     margin-top: 14px;
