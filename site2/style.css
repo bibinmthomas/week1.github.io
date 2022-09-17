@@ -81,7 +81,7 @@ a .logo-amazon{
     margin-bottom: 10px;
     width: 15px;
     height: 18px;
-    background-image: url(../Assests/sprites/sprite-loc.png);
+    background-image: url(Assests/sprites/sprite-loc.png);
     background-size: cover;
 }
 
@@ -323,7 +323,7 @@ a .logo-amazon{
     width: 1500px;
     margin-left: 10px;
     /*background: #007185;*/
-    background-image: url(../Assests/carousel/1.jpg);
+    background-image: url(Assests/carousel/1.jpg);
     background-size: cover;
 }
 .body-main{
