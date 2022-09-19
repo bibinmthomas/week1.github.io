@@ -661,7 +661,7 @@ div .body-row3{
     width: 98px;
     height: 35px;
     margin-right: 73px;
-    background-image: url(/Assests/sprites/logo-amazon.png);
+    background-image: url(Assests/sprites/logo-amazon.png);
     background-size: cover;
     background-color: #131921;
 }
