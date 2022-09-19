@@ -71,7 +71,7 @@ p:first-of-type {
     /*background: plum;*/
     text-align: center;
     background-image: url(pic2.jpg);
-    background-size: 100% 713px;
+    background-size: cover;
 }
 .header{
     position: fixed;
@@ -223,7 +223,7 @@ a:active, a:link, a:visited {
     /*background: purple;*/
     text-align: center;
     background-image: url(pic3.jpg);
-    background-size: 100% 713px;
+    background-size: cover;
 }
 
 .box2{
@@ -281,7 +281,7 @@ button:hover{
     /*background: purple;*/
     text-align: center;
     background-image: url(pic4.jpg);
-    background-size: 100% 713px;
+    background-size: cover;
 }
 
 .box3{
@@ -320,7 +320,7 @@ button:hover{
     /*background: purple;*/
     text-align: center;
     background-image: url(pic5.jpg);
-    background-size: 100% 713px;
+    background-size: cover;
 }
 
 .box4{
